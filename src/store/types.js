@@ -1,0 +1,28 @@
+export const queryStatus = {
+  NONE: 'NONE',
+  LOADING: 'LOADING',
+  SUCCESS: 'SUCCESS',
+  FAILURE: 'FAILURE',
+};
+
+export const responseType = {
+  CREATED: 201,
+  SUCCESS: 200,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  SERVER_ERROR: 500,
+};
+
+export const LOAD_ACCESS_TOKEN = 'LOAD_ACCESS_TOKEN';
+export const SAVE_USER_INFO = 'SAVE_USER_INFO';
+
+export const GET_USER_INFO_ATTEMPT = 'GET_USER_INFO_ATTEMPT';
+export const GET_USER_INFO_SUCCESS = 'GET_USER_INFO_SUCCESS';
+export const GET_USER_INFO_FAILURE = 'GET_USER_INFO_FAILURE';
+
+export const LOGIN_ATTEMPT = 'LOGIN_ATTEMPT';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+export const LOG_OUT = 'LOG_OUT';
+export const RESET_STATE = 'RESET_STATE';

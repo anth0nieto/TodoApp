@@ -1,0 +1,9 @@
+export const PRIMARY_COLOR = '#32a6de';
+export const SECONDARY_COLOR = '#0984e3';
+export const GREEN_COLOR = '#55efc4';
+export const PURPLE_COLOR = '#a29bfe';
+export const RED_COLOR = '#ff7675';
+export const RED_DARK_COLOR = '#ee5253';
+export const ORANGE_COLOR = '#fab1a0';
+export const GREEN_BLUE_COLOR = '#81ecec';
+export const PINK_COLOR = '#fd79a8';
